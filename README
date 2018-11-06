@@ -1,0 +1,17 @@
+TUTORIEL GITHUB
+
+1 Trouver les documents:
+  - Aller sur le projet, dans l'onglet "<> Code", les fichiers apparaissent.
+
+2 Modifier un document:
+  - Pour faire une modification, créer une nouvelle "Branch" différente de Master (ex: Modifs classe Joueur). Cela permet de            modifier une copie du document original.
+  - Vérifier que vous travaillez bien dans la Branch crée et pas sur la Master, puis, à l'aide du crayon (à droite), faire toutes les modifications souhaitées.
+  - Ensuite, dans "Commit Changes" (en bas), décrire les changements, selectionner "commit directly to the "nom de la branche" branch", puis cliquer sur "commit changes".
+
+3 Demander la vérification et l'application de la modification:
+  - Dans l'onglet "Pull Requests", cliquer sur "New pull requests", choisir quelles branches on compare entre elles, (souvent la base est "Master"). Vous voyez ce qui a été ajouté en vert, et supprimer en rouge.
+  - Cliquez sur "create pull request"
+
+4 Appliquer une modification (= fusionner les fichiers mofifiés et originaux, = accepter une pull request):
+  - Visualiser le document modifié dans l'onglet "pull requests", sous-onglet "Files Changed"
+  - Pour appliquer la modification, dans l'onglet "pull requests", sous-onglet "Conversation", cliquer sur "Merge pull request", "confirm merge". (on peut ensuite supprimer la branche créée)
